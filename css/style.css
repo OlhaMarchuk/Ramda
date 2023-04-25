@@ -1,0 +1,132 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+.conteiner{
+    width: 1180px;
+    margin: 0 auto;
+}
+.header{
+    padding-top: 62px;
+}
+.header-link{
+    font-family: 'Roboto', sans-serif;
+    font-size: 80px;
+    line-height: 0,94;
+    color: #8fdeff;
+    background-color: #fff;
+}
+.colored{
+    color: #000;
+}
+.section-menu{
+    display: flex;
+    justify-content: center;
+    background-color: #35444F; 
+    margin-top: 40px;
+    margin-bottom: 48px;
+}
+.section-menu-item{
+    padding: 25px 30px;
+    border-left: 1px solid white;
+    transition: 0.5s;
+}
+.section-menu-item:hover{
+    background-color: #222F3A;
+}
+.section-menu-link{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    line-height: 0.28;
+    color: #FFFFFF;
+}
+.item4{
+    border-right: 1px solid #FFFFFF;
+}
+.main{
+    display: flex;
+    justify-content: sb;
+}
+.main-nav{
+    width: 304px;
+    border: 1px solid  #DBDBDB;
+}
+.main-nav-menu{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    transition: 0.5s;
+}
+.main-nav-menu:hover{
+    padding-left: 40px;
+    background-color:  #DBDBDB;
+}
+.main-nav-menu:hover a{
+    color: #2C2C2C;
+}
+.main-nav-link{
+    font-family: 'Roboto', sans-serif;
+    font-size: 27px;
+    line-height: 0.27;
+    color: #485863;
+}
+.main-img-text{
+    width: 886px;
+}
+.main-img-logo{
+    width: 784px;
+    border: 1px solid #DBDBDB;
+    margin-left: 52px;
+    padding: 74px 200px;
+}
+.main-img{
+    width: 30vh;
+    margin: 74px 68px;
+    transition: 00.5s;
+}
+.main-img:hover{
+    transform: scale(1.5);
+}
+.main-text{
+    padding-top: 32px;
+    margin-left: 52px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    color: #2C2C2C;
+}
+.text1{
+    margin-top: 20px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 22px 40px;
+    
+    margin-top: 54px;
+    background-color:  rgba(99, 105, 110, 0.48);
+}
+.footer-menu{
+    display: flex;
+}
+.footer-list{
+    padding-right: 20px; 
+}
+.footer-list-link{
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    line-height: 1;
+    color: #0C1927;
+}
+.footer-list-link:hover{
+    color: #6295ac;
+}
+.footer-text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    line-height: 1;
+    color: #010101;
+}
+
+
